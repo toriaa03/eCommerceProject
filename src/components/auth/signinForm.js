@@ -11,9 +11,9 @@ class SignInForm extends Component {
             <form onSubmit={handleSubmit} className={`${className} sign-in-form` }>
                 <Field className='sign-in-form__email' 
                 name='email' 
-                type='email' 
-                title='Email' 
-                placeholder='Email' 
+                type='email'
+                title='Email'
+                placeholder='Email'
                 component={FormInput} />
 
                 <Field className='sign-in-form__password' 
